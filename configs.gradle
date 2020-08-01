@@ -1,0 +1,13 @@
+ext.config = [
+        packageName: "com.android.app.tikitest",
+        versionCode: 1,
+        versionName: "1.0.0",
+
+        /**
+         * Config SDK
+         * **/
+
+        compileSdkVersion: 29,
+        minSdkVersion: 21,
+        targetSdkVersion: 29
+]
