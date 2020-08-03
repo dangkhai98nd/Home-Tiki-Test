@@ -18,7 +18,7 @@ data class FlashDeal(
         val qty : Int,
         @SerializedName("qty_ordered") val qtyOrdered : Int,
         @SerializedName("qty_remain") val qtyRemain : Int,
-        val percent : Int,
+        val percent : Double,
         val status : String
     )
 

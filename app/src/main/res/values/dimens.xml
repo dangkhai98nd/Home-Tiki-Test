@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="tab_spacing_half">5dp</dimen>
+
+    <dimen name="dimen_height_with_item_quick_link">100dp</dimen>
+    <dimen name="dimen_height_with_image_quick_link">52dp</dimen>
+</resources>

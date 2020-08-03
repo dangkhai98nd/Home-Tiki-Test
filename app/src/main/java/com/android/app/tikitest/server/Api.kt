@@ -26,7 +26,7 @@ class Api {
         const val BASE_URL = "https://api.tiki.vn/"
 
         const val BANNER = "/v2/home/banners/v2"
-        const val QUICK_LINK = "/shopping/widgets"
+        const val QUICK_LINK = "/shopping/v2/widgets/quick_link"
         const val FLASH_DEAL = "/v2/widget/deals/hot"
 
         private var INSTANCE: Api? = null

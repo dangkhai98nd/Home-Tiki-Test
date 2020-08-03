@@ -5,4 +5,6 @@
     <color name="colorAccent">#03DAC5</color>
 
     <color name="color_progress_bar">#16A8FA</color>
+    <color name="color_tab_selected">#E6FFFFFF</color>
+    <color name="color_tab_unselected">#80FFFFFF</color>
 </resources>

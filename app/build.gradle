@@ -37,6 +37,8 @@ dependencies {
     testImplementation "junit:junit:$versions.junit"
     androidTestImplementation "androidx.test.ext:junit:$versions.androidx.junit"
     androidTestImplementation "androidx.test.espresso:espresso-core:$versions.androidx.espresso"
+    implementation "com.google.android.material:material:$versions.material"
+    implementation "androidx.legacy:legacy-support-v4:$versions.androidx.legacy_support_v4"
 
     // retrofit
     implementation "com.squareup.retrofit2:retrofit:$versions.retrofit"
@@ -50,11 +52,14 @@ dependencies {
     // Gson
     implementation "com.google.code.gson:gson:$versions.gson"
 
-    // Progress bar
-    implementation "com.github.vlonjatg:progress-activity:$versions.progress_bar"
-
     // rxjava
     implementation "io.reactivex.rxjava3:rxandroid:$versions.rx_android"
     implementation "io.reactivex.rxjava3:rxjava:$versions.rx_java"
+
+    // viewpager loop
+    implementation "com.kenilt.loopingviewpager:loopingviewpager:$versions.loop_view_pager"
+
+    // progress bar
+    implementation "com.akexorcist:round-corner-progress-bar:$versions.round_corner_progress"
 
 }

@@ -2,7 +2,7 @@ package com.android.apps.components.lifecycle
 
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.LifecycleOwner
-import io.reactivex.disposables.Disposable
+import io.reactivex.rxjava3.disposables.Disposable
 
 class DisposableLifecycleAware(instance: Disposable) : LifecycleAware<Disposable>(instance) {
     override fun close() {

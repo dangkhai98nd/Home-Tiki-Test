@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">Tiki Test</string>
     <string name="text_press_back_again_to_exit">Press back again to exit</string>
+    <string name="text_price_product">%1$s đ</string>
+    <string name="text_progress_bar_flash_deal">Đã bán %1$s</string>
+    <string name="text_discount_flash_deal">\-%1$s%%</string>
 </resources>
